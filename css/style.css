@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #2d3436;
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1.2rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: #51575c;
+    border-radius: 2px;
+}
+
+/* skate store */
+.store {
+    background: url('../img/skate_store.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.store h1 {
+    color: #fff;
+    padding: 220px;
+    font-size: 5rem;
+}
+
+/* h1 and p */
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    align-items: center;
+    padding: 2.5rem;
+    font-size: 4rem;
+}
+
+
+p {
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+/* grid part */
+.squares {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}
+
+.squares h1 {
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 3rem;
+}
+
+.square {
+    background: url('../img/sk-1.jpg')no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 1.4rem;
+    height: 50vh;
+}
+
+.square-1 {
+    background: url('../img/sk-2.jpg')no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 1.4rem;
+    height: 50vh;
+}
+
+.square-2 {
+    background: url('../img/sk-3.jpg')no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 1.4rem;
+    height: 50vh;
+}
+
+.square-3 {
+    background: url('../img/sk-4.jpg')no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 1.4rem;
+    height: 50vh;
+}
+
+/* Hover */
+.square:hover {
+    transform: scale(1.1);
+}
+
+.square-1:hover {
+    transform: scale(1.1);
+}
+
+.square-2:hover {
+    transform: scale(1.1);
+
+}
+
+.square-3:hover {
+    transform: scale(1.1);
+}
+
+
+/* about*/
+
+#about h1 {
+    padding: 1rem;
+}
+
+/* footer */
+footer {
+    height: 16rem;
+    background-color: #2d3436;
+    text-align: center;
+}
+
+footer a i {
+    font-size: 5rem;
+    padding: 3.5rem;
+    color: #fff;
+}
+
+/* Media query */
+@media only screen and (max-width: 600px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .background {
+        height: 100vh;
+        background: url('../img/skate.jpg')no-repeat center center/cover;
+
+    }
+
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+        align-items: center;
+        padding: 2.5rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 3;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #2d3436;
+        height: 30rem;
+        text-align: center;
+
+    }
+
+    .squares {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .squares h1 {
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 2.7rem;
+    }
+
+    footer a i {
+        font-size: 2rem;
+
+    }
+
+    .background h1 {
+        color: #fff;
+        padding: 120px;
+        font-size: 3rem;
+
+    }
+
+    #skate {
+        visibility: hidden;
+    }
+}
