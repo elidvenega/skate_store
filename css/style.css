@@ -160,10 +160,14 @@ footer a i {
         text-align: center;
     }
 
-    .background {
+    .store {
         height: 100vh;
-        background: url('../img/skate.jpg')no-repeat center center/cover;
+        background: url('../img/skate_store.jpg')no-repeat center center/cover;
 
+    }
+    
+    .store h1 {
+        display: none;
     }
 
     h1,
