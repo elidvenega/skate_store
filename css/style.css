@@ -165,9 +165,12 @@ footer a i {
         background: url('../img/skate_store.jpg')no-repeat center center/cover;
 
     }
-    
+
     .store h1 {
-        display: none;
+        font-size: 4rem;
+        padding: 200px 0;
+        color: #fff;
+        text-align: center;
     }
 
     h1,
@@ -184,14 +187,7 @@ footer a i {
         font-size: 3;
     }
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        background-color: #2d3436;
-        height: 30rem;
-        text-align: center;
 
-    }
 
     .squares {
         display: flex;
@@ -205,11 +201,6 @@ footer a i {
         margin: 2.7rem;
     }
 
-    footer a i {
-        font-size: 2rem;
-
-    }
-
     .background h1 {
         color: #fff;
         padding: 120px;
@@ -219,5 +210,19 @@ footer a i {
 
     #skate {
         visibility: hidden;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #2d3436;
+        height: 30rem;
+        text-align: center;
+
+    }
+
+    footer a i {
+        font-size: 2rem;
+
     }
 }
