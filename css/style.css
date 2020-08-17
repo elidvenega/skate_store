@@ -12,7 +12,7 @@ body {
     display: flex;
     position: sticky;
     top: 0;
-    background: #2d3436;
+    background: #2e2e2e;
     color: #fff;
     justify-content: space-between;
     z-index: 1;
@@ -38,10 +38,21 @@ body {
 }
 
 /* skate store */
+
 .store {
-    background: url('../img/skate_store.jpg') no-repeat center center/cover;
+    background: url('../img/sklife.jpeg') no-repeat center center/cover;
     height: 100vh;
+    position: relative;
 }
+
+.layer {
+    width: 100%;
+    height: 15%;
+    background: #000;
+    opacity: .2;
+    position: absolute;
+}
+
 
 .store h1 {
     color: #fff;
@@ -82,7 +93,7 @@ p {
 }
 
 .square {
-    background: url('../img/sk-1.jpg')no-repeat center center/cover;
+    background: url('../img/sk-1.jpeg')no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 1.4rem;
@@ -90,7 +101,7 @@ p {
 }
 
 .square-1 {
-    background: url('../img/sk-2.jpg')no-repeat center center/cover;
+    background: url('../img/sk-2.jpeg')no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 1.4rem;
@@ -98,7 +109,7 @@ p {
 }
 
 .square-2 {
-    background: url('../img/sk-3.jpg')no-repeat center center/cover;
+    background: url('../img/sk-3.jpeg')no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 1.4rem;
@@ -106,7 +117,7 @@ p {
 }
 
 .square-3 {
-    background: url('../img/sk-4.jpg')no-repeat center center/cover;
+    background: url('../img/sk-4.jpeg')no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 1.4rem;
@@ -141,7 +152,7 @@ p {
 /* footer */
 footer {
     height: 16rem;
-    background-color: #2d3436;
+    background-color: #2e2e2e;
     text-align: center;
 }
 
@@ -162,12 +173,12 @@ footer a i {
 
     .store {
         height: 100vh;
-        background: url('../img/skate_store.jpg')no-repeat center center/cover;
+        background: url('../img/sklife.jpeg')no-repeat center center/cover;
 
     }
 
     .store h1 {
-        font-size: 4rem;
+        font-size: 2rem;
         padding: 200px 0;
         color: #fff;
         text-align: center;
