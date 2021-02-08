@@ -77,13 +77,11 @@ body {
 
 /* h1 and p */
 
-h1,
-h2,
-h3 {
+h1{
     text-align: center;
     align-items: center;
     padding: 2rem;
-    font-size: 3.7rem;
+    font-size: 4.3rem;
 }
 
 
@@ -166,13 +164,13 @@ p {
 
 /* footer */
 footer {
-    height: 150px;
+    height: 190px;
     background-color: #2e2e2e;
     text-align: center;
 }
 
 footer a i {
-    font-size: 55px;
+    font-size: 65px;
     padding: 3.5rem;
     color: #fff;
 }
@@ -191,26 +189,24 @@ footer a i {
     }
 
     .store h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
         padding: 200px 0;
         color: #fff;
         text-align: center;
     }
 
-    h1,
-    h2,
-    h3 {
+    h1 {
         text-align: center;
         align-items: center;
-        padding: 30px;
-        font-size: 3rem;
+        padding: 20px;
+        font-size: 3.4rem;
         font-weight: bold;
+        margin-top: 50px;
     }
 
     p {
         font-size: 3;
     }
-
 
 
     .squares {
@@ -240,10 +236,8 @@ footer a i {
         display: flex;
         justify-content: center;
         background-color: #2d3436;
-        height: 40px;
+        height: 90px;
         text-align: center;
-
-
     }
 
     footer a i {
@@ -251,6 +245,6 @@ footer a i {
         padding: 15px;
         margin-top: 15px;
         /* display: flex;
-        flex-direction: column; */
+        flex-direction: column;  */
     }
 }
