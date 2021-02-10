@@ -212,11 +212,13 @@ footer a i {
     .squares {
         display: flex;
         flex-direction: column;
+        text-align: center;]
+        align-items: center;
 
     }
 
     .squares h1 {
-        font-size: 3rem;
+        font-size: 5rem;
         font-family: 'Courier New', Courier, monospace;
         margin: 2.7rem;
     }
@@ -236,13 +238,13 @@ footer a i {
         display: flex;
         justify-content: center;
         background-color: #2d3436;
-        height: 95px;
+        height: 110px;
         text-align: center;
     }
 
     footer a i {
-        font-size: 2.2rem;
-        padding: 17px;
+        font-size: 3rem;
+        padding: 15px;
         margin-top: 15px;
         /* display: flex;
         flex-direction: column;  */
