@@ -176,7 +176,7 @@ footer a i {
 }
 
 /* Media query */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     #navbar {
         display: flex;
         flex-direction: column;
@@ -189,7 +189,7 @@ footer a i {
     }
 
     .store h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         padding: 200px 0;
         color: #fff;
         text-align: center;
@@ -212,13 +212,11 @@ footer a i {
     .squares {
         display: flex;
         flex-direction: column;
-        text-align: center;]
-        align-items: center;
-
+        justify-content: center;
     }
 
     .squares h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         font-family: 'Courier New', Courier, monospace;
         margin: 2.7rem;
     }
