@@ -15,7 +15,7 @@ body {
     display: flex;
     position: sticky;
     top: 0;
-    background: #2e2e2e;
+    background: #4b4b4b;
     color: #fff;
     justify-content: space-between;
     z-index: 1;
@@ -164,8 +164,8 @@ p {
 
 /* footer */
 footer {
-    height: 190px;
-    background-color: #2e2e2e;
+    height: 180px;
+    background-color: #4b4b4b;
     text-align: center;
 }
 
