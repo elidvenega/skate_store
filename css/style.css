@@ -19,7 +19,7 @@ body {
     display: flex;
     position: sticky;
     top: 0;
-    background: linear-gradient(45deg,var(--main-color),#2c3e50);
+    background: linear-gradient(45deg, var(--main-color), #2c3e50);
     color: #fff;
     justify-content: space-between;
     z-index: 1;
@@ -41,7 +41,7 @@ body {
 }
 
 #navbar ul li a:hover {
-    background: #51575c;
+    background: var(--main-color);
     border-radius: 2px;
 }
 
@@ -62,6 +62,7 @@ body {
     align-items: center;
 }
 
+/* About page */
 .about {
     background: url('../img/sk-3.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -72,6 +73,35 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#about h1 {
+    padding: 1rem;
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    padding: 40px;
+}
+
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
 
 .layer {
     width: 100%;
@@ -170,17 +200,19 @@ p {
     transform: scale(1.1);
 }
 
+/* utilities */
+.center {
+    text-align: center;
+}
 
-/* about*/
-
-#about h1 {
-    padding: 1rem;
+.btn .btn-dark {
+    background-color: linear-gradient(45deg, var(--main-color), #2c3e50);
 }
 
 /* footer */
 footer {
     height: 180px;
-    background: linear-gradient(55deg,var(--main-color),#2c3e50);
+    background: linear-gradient(55deg, var(--main-color), #2c3e50);
     text-align: center;
 }
 
