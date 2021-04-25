@@ -78,6 +78,22 @@ body {
     padding: 1rem;
 }
 
+.layer {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    position: absolute;
+}
+
+
+.store h1 {
+    color: #fff;
+    font-size: 5rem;
+    z-index: 1;
+}
+
+
 /* Contact */
 #contact {
     display: flex;
@@ -102,23 +118,13 @@ body {
     padding: 0.5rem;
 }
 
-
-.layer {
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: 0.6;
-    position: absolute;
+#contact p {
+    font-size: 1.3rem;
 }
 
-
-.store h1 {
-    color: #fff;
-    font-size: 5rem;
-    z-index: 1;
+.m-heading {
+    font-size: 3rem;
 }
-
-
 
 /* h1 and p */
 
@@ -205,8 +211,24 @@ p {
     text-align: center;
 }
 
-.btn .btn-dark {
-    background-color: linear-gradient(45deg, var(--main-color), #2c3e50);
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(45deg, var(--main-color), #2c3e50);
+    padding: 0.9rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background: var(--main-color);
+}
+
+.btn-dark {
+    background: linear-gradient(45deg, var(--main-color), #2c3e50);
+    color: #fff;
 }
 
 /* footer */
@@ -277,6 +299,12 @@ footer a i {
 
     #skate {
         visibility: hidden;
+    }
+
+    /* contact form*/
+
+    #contact {
+        flex-direction: column;
     }
 
     footer {
