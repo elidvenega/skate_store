@@ -41,8 +41,8 @@ body {
 }
 
 #navbar ul li a:hover {
-    background: var(--main-color);
-    border-radius: 2px;
+    text-decoration: underline;
+    color: #fff;
 }
 
 #skate {
