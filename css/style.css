@@ -246,11 +246,18 @@ footer a i {
 
 /* Media query */
 @media (max-width: 500px) {
-    #navbar {
+    #navbar ul {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        margin: auto;
+    }
+
+    ul li {
+        padding: 5px;
+    }
+
+    #skate {
+        display: none;
     }
 
     .store {
