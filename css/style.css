@@ -15,7 +15,7 @@ body {
 }
 
 /* Navbar */
-#navbar {
+/* #navbar {
     display: flex;
     position: sticky;
     top: 0;
@@ -47,7 +47,49 @@ body {
 
 #skate {
     font-size: 1.5rem;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
 }
+.logo {
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav_links li {
+    list-style: none;
+}
+.nav_links a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease-in;
+}
+
 
 /* skate store main picture */
 
@@ -64,7 +106,7 @@ body {
 
 /* About page */
 .about {
-    background: url('../img/sk-3.jpg') no-repeat center center/cover;
+    background: url('../img/sk-1.jpg') no-repeat center center/cover;
     height: 100vh;
     position: relative;
     overflow-y: hidden;
@@ -246,7 +288,7 @@ footer a i {
 
 /* Media query */
 @media (max-width: 500px) {
-    #navbar ul {
+    /* #navbar ul {
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -258,7 +300,59 @@ footer a i {
 
     #skate {
         display: none;
+    } */
+
+    .nav_links {
+        position: fixed;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: var(--nav);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        overflow: hidden;
     }
+
+    .nav_links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
 
     .store {
         height: 90vh;
