@@ -59,11 +59,13 @@ nav {
     z-index: 1;
 }
 
-.logo {
+.logo a {
     color: rgb(226, 226, 226);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 20px;
+    text-decoration: none;
+
 }
 
 .nav_links {
@@ -367,10 +369,10 @@ footer a i {
     }
 
     .store h1 {
-        font-size: 3.5rem;
+        /* font-size: 3.5rem;
         padding: 200px 0;
         color: #fff;
-        text-align: center;
+        text-align: center; */
         display: none;
     }
 
